@@ -1,4 +1,124 @@
 *{
-    background-color: black;
+    
     color: azure;
+    border: solid 0px red;
+    margin: 0px;
+    padding: 0px;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  background-color: rgba(245, 245, 220, 0.441);
+  
+  
+
+}
+.mapa{
+    width: 60%;
+    height: auto;
+    border-radius: 6%;
+    
+    
+}
+.indice{
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    width: 70%;
+    text-align: center;
+    align-items: center;
+    border: solid 0px green;
+}
+.ubicacion{
+    
+    
+}
+.elemap{
+    justify-content: center;
+    display: flex;
+}
+.c1{
+    display: flex;
+    padding: 1%;
+}
+.boton{
+    
+    color: black;
+    font-size: 1vw;
+    padding: 2% 0%;
+    
+    width: 15%;
+    
+    
+}
+.grande{
+    width: 100%;
+    height: auto;
+}
+.hola1{
+    width: 60%;
+    margin: 1%;
+}
+.hola2{
+    width: 40%;
+    margin: 1%;
+}
+.as1{
+    width: 65%;
+    text-align: center;
+    font-size: 1.5vw;
+    padding: 1%;
+}
+.as2{
+    width: 35%;
+}
+.texto{
+    font-size: 1.5VW;
+    text-align: center;
+    padding: 4% 10%;
+}
+.info{
+    border: solid 0px white;
+    
+    
+    margin: 0% 10%;
+    background-color: rgba(0, 0, 0, 0.347);
+    padding: 2%;
+}
+.portada{
+    width: 80%;
+    height: auto;
+    
+}
+body {
+    animation: cambio-imagen 20s infinite;
+    animation-timing-function: ease-in-out;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    /* Aquí puedes agregar otros estilos para la página */
+}
+
+@keyframes cambio-imagen {
+    0% {
+      background-image: url('../img/imagen1.png');
+      
+    }
+    33% {
+      background-image: url('../img/imagen2.png');
+      
+    }
+    66% {
+        background-image: url('../img/imagen3.png');
+        
+    }
+    100% {
+      background-image: url('../img/imagen4.png');
+        
+    }
+    
 }
