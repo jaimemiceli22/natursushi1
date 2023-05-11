@@ -5,22 +5,111 @@
     margin: 0px;
     padding: 0px;
 }
-
+.lineanegra{
+    color: black;
+}
 nav {
   display: flex;
   justify-content: center;
-  background-color: rgba(245, 245, 220, 0.441);
+  margin-bottom: 2%;
   
   
+}
+.imagenesplatos{
+    display: flex;
+}
+.logo{
+    width: 13%;
+    position: absolute;
+    
+}
+.primermapa{
+    width: 50%;
+}
+.imgpresentacion{
+    width: 30%;
+}
+.cincuenta{
+    width: 50%;
+    padding: 2%;
+    
+}
+.displi{
+    display: flex;
+}
+.menj{
+    text-align: center;
+    padding: 2% 20%;
+    font-size: 1.5vw;
+}
+
+.mensajehorario{
+    text-align: center;
 
 }
-.mapa{
+.ubica{
+    display: flex;
+    text-align: center;
+    font-size: 1.8vw;
+    
+}
+th{
+    border: solid rgba(255, 255, 255, 0.373) 1px;
+    padding: 1%;
+}
+td{
+    border: solid rgba(255, 255, 255, 0.373) 1px;
+    padding: 1%;
+}
+.horariofinal{
+    padding: 3%;
+    margin: 0 auto;
+}
+.hor2{
+    padding-top: 5%;
+    background-color: rgba(0, 0, 0, 0.347);
+}
+.hor1{
+    
+    text-align: center;
+    font-size: 1.5vw;
+    background-color: rgba(0, 0, 0, 0.347);
+    padding: 4%;
+}
+.presentacion{
+    text-align: center;
+    
+}
+.po{
+    width: 50%;
+    height: auto;
+}
+.mas{
+    display: flex;
+    text-align: center;
+    padding: 3% 0%;
+}
+.mapita{
     width: 60%;
     height: auto;
     border-radius: 6%;
     
     
 }
+.mapres{
+    
+    width: 80%;
+    height: 50vh;
+}
+.txtubic{
+    padding: 2%;
+    height: 8vh;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    justify-content: center;
+    display: flex;
+}
+
 .indice{
     display: flex;
     justify-content: center;
@@ -28,10 +117,15 @@ nav {
     list-style: none;
     margin: 0;
     padding: 0;
-    width: 70%;
+    width: 60% ;
     text-align: center;
     align-items: center;
     border: solid 0px green;
+    font-size: 1.3vw;
+    background-color: rgba(245, 245, 220, 0.837);
+    margin-top: 1%;
+    
+   
 }
 .ubicacion{
     
@@ -45,34 +139,21 @@ nav {
     display: flex;
     padding: 1%;
 }
+.claselogo{
+    text-align: center;
+}
 .boton{
     
     color: black;
-    font-size: 1vw;
+    
     padding: 2% 0%;
     
     width: 15%;
+    text-decoration: none;
     
     
 }
-.grande{
-    width: 100%;
-    height: auto;
-}
-.hola1{
-    width: 60%;
-    margin: 1%;
-}
-.hola2{
-    width: 40%;
-    margin: 1%;
-}
-.as1{
-    width: 65%;
-    text-align: center;
-    font-size: 1.5vw;
-    padding: 1%;
-}
+
 .as2{
     width: 35%;
 }
@@ -86,7 +167,7 @@ nav {
     
     
     margin: 0% 10%;
-    background-color: rgba(0, 0, 0, 0.347);
+    background-color: rgba(0, 0, 0, 0.445);
     padding: 2%;
 }
 .portada{
@@ -94,31 +175,53 @@ nav {
     height: auto;
     
 }
+
 body {
-    animation: cambio-imagen 20s infinite;
+    animation: cambio-imagen 60s infinite;
     animation-timing-function: ease-in-out;
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
-    /* Aquí puedes agregar otros estilos para la página */
+     
+}
+
+.abrimos{
+    font-size: 1.5vw;
+    display: flex;
+    text-align: center;
+    
+}
+.horario{
+    margin-right: 3%;
+    margin-left: 10%;
+}
+.logosunidos{
+    width: 40%;
+    height: auto;
+    background-color: rgba(255, 255, 255, 0.707);
+}
+.mapita{
+    
+    height: auto;
 }
 
 @keyframes cambio-imagen {
-    0% {
-      background-image: url('../img/imagen1.png');
-      
+    0%, 14.2% {
+        background-image: url('../img/Bodega.jpg');
     }
-    33% {
-      background-image: url('../img/imagen2.png');
-      
+    14.3%, 28.5% {
+        background-image: url('../img/Atún.jpg');
     }
-    66% {
-        background-image: url('../img/imagen3.png');
-        
+    28.6%, 47.6% {
+        background-image: url('../img/atami.jpg');
     }
-    100% {
-      background-image: url('../img/imagen4.png');
-        
+    47.7%, 66.6% {
+        background-image: url('../img/Futomaki.jpg');
     }
-    
+    66.7%, 76.2% {
+        background-image: url('../img/tunayaki.jpg');
+    }
+    76.3%, 100% {
+        background-image: url('../img/restaurante.jpg');
+    }
 }
