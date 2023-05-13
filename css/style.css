@@ -122,7 +122,7 @@ td{
     align-items: center;
     border: solid 0px green;
     font-size: 1.3vw;
-    background-color: rgba(245, 245, 220, 0.837);
+    background-color: rgba(255, 255, 255, 0.897);
     margin-top: 1%;
     
    
@@ -147,7 +147,9 @@ td{
     color: black;
     
     padding: 2% 0%;
-    
+    text-decoration: none;
+    color: black;
+    transition: color 0.3s;
     width: 15%;
     text-decoration: none;
     
@@ -189,22 +191,90 @@ body {
     font-size: 1.5vw;
     display: flex;
     text-align: center;
+    justify-content: center;
     
+}
+form{
+    font-size: 1vw;
+    
+    
+}
+
+
+button{
+    margin-top: 1%;
+    width: 12%;
+    color: black;
+    padding: 0.4% 0%;
+    font-size: 1vw;
+}
+.inputgrande{
+    margin-top: 0.5%;
+    padding: 0.5%;
+    color: black;
+    max-width: 60%;
+    min-width: 60%;
+    min-height: 20vh;
+    font-size: 1vw;
+    vertical-align: top;
+    width: 60%;
+    height: 20vh;
+}
+.inputnormal{
+    margin-top: 0.5%;
+    width: 60%;
+    margin: 1% 0%;
+    color: black;
+    font-size: 1vw;
+    padding: 0.5%;
 }
 .horario{
     margin-right: 3%;
     margin-left: 10%;
 }
+.formulario{
+    justify-content: center;
+    text-align: center;
+    
+}
 .logosunidos{
-    width: 40%;
+    width: 60%;
     height: auto;
-    background-color: rgba(255, 255, 255, 0.707);
+    background-color: rgba(255, 255, 255, 0.897);
 }
 .mapita{
     
     height: auto;
 }
-
+.mitad{
+    margin-bottom: 1%;
+}
+.a{
+    text-decoration: none;
+    color: white;
+    animation: colorChange 0.5s forwards;
+}
+.elmapa{
+    width: 50%;
+    
+    margin: 2%;
+}
+iframe{
+    width: 100%;
+}
+table{
+    width: 50%;
+    margin: 2%;
+    height: 40vh;
+}
+.telymap{
+    display: flex;
+    padding: 2%;
+}
+@keyframes colorChange {
+    0% { color: rgb(255, 255, 255); }
+    100% { color: rgb(0, 0, 0); }
+}
 @keyframes cambio-imagen {
     0%, 14.2% {
         background-image: url('../img/Bodega.jpg');
