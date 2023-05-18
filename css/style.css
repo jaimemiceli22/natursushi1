@@ -1,212 +1,179 @@
 *{
+    margin: 0;
+    padding: 0;
+    border: 0px solid red;
+    font-size: 1.5vw;
     
-    color: azure;
-    border: solid 0px red;
-    margin: 0px;
-    padding: 0px;
 }
-.lineanegra{
-    color: black;
-}
-nav {
-  display: flex;
-  justify-content: center;
-  margin-bottom: 2%;
-  
-  
-}
-.imagenesplatos{
+/*Encabezado*/
+header {
+    background-color: #ffffff;
+    color: #000000;
+    align-items: center;
     display: flex;
+    justify-content: center;
+    height: 10vh;
+    position: fixed;
+    width: 100%;
 }
 .logo{
-    width: 13%;
-    position: absolute;
+    display: none;
+    width: 10%;
+    height: auto;
+}
+
+nav {
+    
+    
+    width: 50%;
     
 }
-.primermapa{
-    width: 50%;
-}
-.imgpresentacion{
-    width: 30%;
-}
-.cincuenta{
-    width: 50%;
-    padding: 2%;
-    
-}
-.displi{
+
+nav ul {
+    list-style: none;
     display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+nav ul li {
+    
+    margin: 0% 5%;
+}
+nav ul li:hover{
+    
+    font-size: 2vw;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    padding: 5px;
+}
+nav ul li a:hover{
+    color: rgb(167, 131, 87);
+}
+/*main*/
+
+body{
+    background-image: url("../img/uroko.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center;
+    background-size: 50%;
+    
+
+    
+}
+.fondomain{
+    padding-top: 10vh;
+}
+.info{
+    margin: 0% 10%;
+    background-color: #ffffffdc;
+    padding: 2%;
+}
+.claselogo{
+    text-align: center;
+}
+.logosunidos{
+    width: 50%;
+    height: auto;
+    
 }
 .menj{
     text-align: center;
     padding: 2% 20%;
     font-size: 1.5vw;
 }
-
-.mensajehorario{
-    text-align: center;
-
-}
-.ubica{
-    display: flex;
-    text-align: center;
-    font-size: 1.8vw;
-    
-}
-th{
-    border: solid rgba(255, 255, 255, 0.373) 1px;
-    padding: 1%;
-}
-td{
-    border: solid rgba(255, 255, 255, 0.373) 1px;
-    padding: 1%;
-}
-.horariofinal{
-    padding: 3%;
-    margin: 0 auto;
-}
-.hor2{
-    padding-top: 5%;
-    background-color: rgba(0, 0, 0, 0.347);
-}
-.hor1{
-    
-    text-align: center;
-    font-size: 1.5vw;
-    background-color: rgba(0, 0, 0, 0.347);
-    padding: 4%;
-}
-.presentacion{
-    text-align: center;
-    
-}
-.po{
-    width: 50%;
-    height: auto;
-}
-.mas{
-    display: flex;
-    text-align: center;
-    padding: 3% 0%;
-}
-.mapita{
-    width: 60%;
-    height: auto;
-    border-radius: 6%;
-    
-    
-}
-.mapres{
-    
-    width: 80%;
-    height: 50vh;
-}
-.txtubic{
-    padding: 2%;
-    height: 8vh;
-    color: rgb(255, 255, 255);
-    font-weight: bold;
-    justify-content: center;
-    display: flex;
-}
-
-.indice{
+.tresimagenes{
     display: flex;
     justify-content: center;
-    text-decoration: none;
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    width: 60% ;
-    text-align: center;
     align-items: center;
-    border: solid 0px green;
-    font-size: 1.3vw;
-    background-color: rgba(255, 255, 255, 0.897);
-    margin-top: 1%;
-    
-   
 }
-.ubicacion{
-    
-    
+.tresimagenes img{
+    width: 20%;
+    height: auto;
+    margin: 1%;
 }
-.elemap{
+.abrimos{
+    
+    display: flex;
+    text-align: center;
     justify-content: center;
-    display: flex;
+    align-items: center;
+    
+    
 }
-.c1{
+.apertura{
+    width: 50%;
+    padding: 2% 2%;
+}
+hr{
+    background-color: #000000;
+    margin: 3% 9%;
+    border-radius: 5%;
+    padding: 0.1% 30%;
+}
+.elmapa{
+    padding: 3% 2%;
+    width: 50%;
+    height: 40vh;
+}
+iframe{
+    height: 100%;
+    width: 100%;
+}
+ /* carta*/
+
+ .info_carta{
+    border: solid 0px white;
+    margin: 1% 4%;
+    background-color: rgba(0, 0, 0, 0.445);
+    padding: 1%;
+    
+}
+.carta img{
+    width: 99%;
+    height: auto;
+    margin: 0% 1%;
+    
+}
+.carta{
     display: flex;
+    
+    
+}
+/*Nosotros*/
+
+.nosotros{
+    padding: 2% 15%;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+.nosotros p{
     padding: 1%;
 }
-.claselogo{
-    text-align: center;
+.nosotros h1{
+    font-size: 2vw;
 }
-.boton{
-    
-    color: black;
-    
-    padding: 2% 0%;
-    text-decoration: none;
-    color: black;
-    transition: color 0.3s;
-    width: 15%;
-    text-decoration: none;
-    
-    
+.conocenos{
+    margin-top: 3vh;
+    margin-bottom: 3vh;
 }
+/*foto joana y antonio*/
 
-.as2{
-    width: 35%;
-}
-.texto{
-    font-size: 1.5VW;
-    text-align: center;
-    padding: 4% 10%;
-}
-.info{
-    border: solid 0px white;
-    
-    
-    margin: 0% 10%;
-    background-color: rgba(0, 0, 0, 0.445);
-    padding: 2%;
-}
-.portada{
-    width: 80%;
+.aj{
+    width: 100%;
     height: auto;
-    
+    margin-top: 4%;
 }
-
-body {
-    animation: cambio-imagen 60s infinite;
-    animation-timing-function: ease-in-out;
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
-     
-}
-
-.abrimos{
-    font-size: 1.5vw;
-    display: flex;
-    text-align: center;
+/*formulario*/
+.formulario{
     justify-content: center;
+    text-align: center;
     
-}
-form{
-    font-size: 1vw;
-    
-    
-}
-
-
-button{
-    margin-top: 1%;
-    width: 12%;
-    color: black;
-    padding: 0.4% 0%;
-    font-size: 1vw;
 }
 .inputgrande{
     margin-top: 0.5%;
@@ -219,6 +186,8 @@ button{
     vertical-align: top;
     width: 60%;
     height: 20vh;
+    border: solid 2px rgb(111, 111, 111);
+    border-radius: 5px;
 }
 .inputnormal{
     margin-top: 0.5%;
@@ -227,71 +196,38 @@ button{
     color: black;
     font-size: 1vw;
     padding: 0.5%;
+    border: solid 2px rgb(111, 111, 111);
+    border-radius: 5px;
 }
-.horario{
-    margin-right: 3%;
-    margin-left: 10%;
-}
-.formulario{
-    justify-content: center;
-    text-align: center;
+.inputnormal:hover{
+    border: 2px solid  rgb(167, 131, 87);
     
 }
-.logosunidos{
-    width: 60%;
-    height: auto;
-    background-color: rgba(255, 255, 255, 0.897);
-}
-.mapita{
+.inputgrande:hover{
+    border: 2px solid  rgb(167, 131, 87);
     
-    height: auto;
 }
 .mitad{
-    margin-bottom: 1%;
+    padding-bottom: 3vh;
 }
-.a{
-    text-decoration: none;
-    color: white;
-    animation: colorChange 0.5s forwards;
+.boton{
+    margin-top: 2vh;
+    padding: 0.5%;
+    width: 15%;
+    border-radius: 2%;
+    border: solid 1px rgb(111, 111, 111);
+    background-color: #ffffff;
 }
-.elmapa{
-    width: 50%;
-    
-    margin: 2%;
+.boton:hover{
+    background-color: rgb(167, 131, 87);
 }
-iframe{
-    width: 100%;
+.contacto{
+    font-size: 2vw;
+    margin-top: 8vh;
+    margin-bottom: 3vh;
 }
-table{
-    width: 50%;
-    margin: 2%;
-    height: 40vh;
-}
-.telymap{
-    display: flex;
-    padding: 2%;
-}
-@keyframes colorChange {
-    0% { color: rgb(255, 255, 255); }
-    100% { color: rgb(0, 0, 0); }
-}
-@keyframes cambio-imagen {
-    0%, 14.2% {
-        background-image: url('../img/Bodega.jpg');
-    }
-    14.3%, 28.5% {
-        background-image: url('../img/Atún.jpg');
-    }
-    28.6%, 47.6% {
-        background-image: url('../img/atami.jpg');
-    }
-    47.7%, 66.6% {
-        background-image: url('../img/Futomaki.jpg');
-    }
-    66.7%, 76.2% {
-        background-image: url('../img/tunayaki.jpg');
-    }
-    76.3%, 100% {
-        background-image: url('../img/restaurante.jpg');
-    }
+/*clases generales*/
+
+.negrita{
+    font-weight: bold;
 }
