@@ -1,0 +1,155 @@
+@media screen  and (max-width:768px){
+    .nav{
+        display: none;
+        
+    }
+    .header{
+        height: 8vh;
+        
+    }
+    .palito{
+        display: none ;
+    }
+    .info{
+        margin: 0% 0%;
+        background-color: #ffffffdc;
+        padding: 2%;
+        width: 80%;
+        
+    }
+    .fondomain{
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        display: flex;
+    }
+    .logosunidos{
+        width: 80%;
+        height: auto;
+        
+    }
+    .menj{
+        padding: 2% 10%;
+        font-size: 3vw;
+    }
+    .tresimagenes img{
+        width: 30%;
+        height: auto;
+    }
+    .elmapa{
+        margin: 4% 0%;
+        width: 100%;
+        height: 20vh;
+        justify-content: center;
+        position: relative;
+        
+    }
+    iframe{
+        
+    }
+    .abrimos{
+        display: inline-block;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        width: 80%;
+        margin: 8% 0%;
+        
+    }
+    .apertura{
+        
+        text-align: center;
+        
+        
+        width: 100%;
+        padding: 2% 2%;
+        font-size: 3vw;
+    }
+    .nosotros p{
+        font-size: 3vw;
+        
+    }
+    .nosotros{
+        padding: 2% 8%;
+    }
+    .form{
+        font-size: 3vw;
+    }
+    .contacto{
+        font-size: 4vw;
+        margin-top: 2vh;
+        margin-bottom: 3vh;
+    }
+    .inputnormal{
+        width: 80%;
+        border-radius: 4px;
+        font-size: 3vw;
+    }
+    .inputgrande{
+        width: 80%;
+        max-width: 80%;
+        min-width: 80%;
+        border-radius: 4px;
+        font-size: 3vw;
+    }
+    .negrita{
+        font-size: 4vw;
+    }
+    .fondomain{
+        padding-top: 8vh;
+    }
+    .nosotros h1{
+        font-size: 4vw;
+        margin: 2% 0%;
+    }
+    .nosotros{
+        margin: 10% 0%;
+    }
+    .boton{
+        font-size: 3vw;
+    }
+    .carta{
+        display: block;
+        background-color: white;
+    }
+    .carta img{
+        width: 100%;
+        height: auto;
+        border: none;
+        padding: 0% 0%;
+    }
+    .carta{
+        padding: 0% 0%;
+    }
+    .izquierda_galeria{
+        background-color: rgba(255, 255, 255, 0);
+        padding: 2%;
+        font-size: 3vw;
+        margin-left: 3%;
+        color: #3333337f;
+        border-radius: 5px;
+    }
+    .derecha_galeria{
+        background-color: rgba(255, 255, 255, 0);
+        padding: 2%;
+        font-size: 3vw;
+        margin-right: 3%;
+        color: #3333337f;
+        border-radius: 5px;
+    }
+    .menu {
+        display: none; /* Oculta el menú principal en pantallas pequeñas */
+      }
+    .menu-hamburguesa {
+        display: block; /* Muestra el menú hamburguesa en pantallas pequeñas */
+      }
+    nav {
+        display: none;
+    }
+    
+}
+@media screen and (max-width:768px) {
+    .info{
+        width: 90%;
+    }
+}

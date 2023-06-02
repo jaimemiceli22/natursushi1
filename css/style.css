@@ -15,6 +15,9 @@ header {
     height: 10vh;
     position: fixed;
     width: 100%;
+    z-index: 9999
+    
+    
 }
 .logo{
     display: none;
@@ -90,6 +93,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    position: relative;
 }
 .tresimagenes img{
     width: 20%;
@@ -128,15 +132,15 @@ iframe{
 
  .info_carta{
     border: solid 0px white;
-    margin: 1% 4%;
-    background-color: rgba(0, 0, 0, 0.445);
-    padding: 1%;
+    
+    
     
 }
 .carta img{
-    width: 99%;
+    width: 100%;
     height: auto;
-    margin: 0% 1%;
+    margin: 0% 0%;
+    padding: 1%;
     
 }
 .carta{
@@ -210,6 +214,7 @@ iframe{
 .mitad{
     padding-bottom: 3vh;
 }
+
 .boton{
     margin-top: 2vh;
     padding: 0.5%;
@@ -226,8 +231,122 @@ iframe{
     margin-top: 8vh;
     margin-bottom: 3vh;
 }
+
+.imgsello{
+    width: 100%;
+    height: auto;
+}
 /*clases generales*/
 
 .negrita{
     font-weight: bold;
 }
+.galeria{
+    display: none;
+    
+}
+.izquierda_galeria {
+    position: absolute;
+    left: 0;
+  }
+
+  .derecha_galeria {
+    position: absolute;
+    right: 0;
+  }
+.carta > div{
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+.carta{
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin: 0% 0%;
+    background-color: rgba(255, 255, 255, 0.247);
+    padding: 1% 10%;
+    
+}
+.carta img{
+    width: 90%;
+    height: auto;
+    border: solid 4px rgba(0, 0, 0, 0.127);
+    background-color: rgb(255, 255, 255);
+    
+}
+.fondocarta{
+    background-color: antiquewhite;
+}
+.izquierda_galeria{
+    background-color: rgba(255, 255, 255, 0);
+    padding: 2%;
+    font-size: 3vw;
+    margin-left: 10%;
+    color: #3333337f;
+    border-radius: 5px;
+}
+.derecha_galeria{
+    background-color: rgba(255, 255, 255, 0);
+    padding: 2%;
+    font-size: 3vw;
+    margin-right: 10%;
+    color: #3333337f;
+    border-radius: 5px;
+}
+.izquierda_galeria:hover{
+    font-size: 3.3vw;
+    color: #333333b9;
+}
+.derecha_galeria:hover{
+    font-size: 3.3vw;
+    color: #333333b9;
+}
+.izquierda_galeria:active{
+    font-size: 3.5vw;
+    color: rgb(167, 131, 87);
+}
+.derecha_galeria:active{
+    font-size: 3.5vw;
+    color:rgb(167, 131, 87);
+}
+.menu-hamburguesa {
+    display: none; /* Oculta el menú hamburguesa por defecto */
+  }
+  .menu-hamburguesa label {
+    display: inline-block;
+    cursor: pointer;
+    
+    
+  }
+  
+  .menu-hamburguesa span {
+    display: block;
+    width: 30px;
+    height: 3px;
+    margin-bottom: 5px;
+    background-color: #020000;
+    transition: transform 0.2s, opacity 0.3s;
+    border-radius: 5px;
+    
+  }
+  
+  .menu-hamburguesa input[type="checkbox"] {
+    display: none;
+  }
+  
+  .menu-hamburguesa input[type="checkbox"]:checked ~ ul {
+    display: block; /* Muestra el menú al hacer clic en el botón hamburguesa */
+  }
+  
+  .menu-hamburguesa input[type="checkbox"]:checked ~ label span:nth-child(1) {
+    transform: translateY(7px) rotate(45deg);
+  }
+  
+  .menu-hamburguesa input[type="checkbox"]:checked ~ label span:nth-child(2) {
+    opacity: 0;
+  }
+  
+  .menu-hamburguesa input[type="checkbox"]:checked ~ label span:nth-child(3) {
+    transform: translateY(-8px) rotate(-45deg);
+  }

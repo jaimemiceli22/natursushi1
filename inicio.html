@@ -7,6 +7,8 @@
     <title>Document</title>
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/responsive.css">
+    <link rel="stylesheet" href="javaScript.js">
+    
 </head>
 <body>
     <header>
@@ -15,15 +17,16 @@
         
         <nav>
             <ul>
-              <li><a href="#">Inicio</a></li>
-              <p>|</p>
-              <li><a href="./carta.html">Carta</a></li>
-              <p>|</p>
-              <li><a href="#nosotroslink">Nosotros</a></li>
-              <p>|</p>
-              <li><a href="#contactolink">Contacto</a></li>
+              <li><a href="#" class="nav">Inicio</a></li>
+              <p class="palito">|</p>
+              <li><a href="./carta.html" class="nav">Carta</a></li>
+              <p class="palito">|</p>
+              <li><a href="#nosotroslink" class="nav">Nosotros</a></li>
+              <p class="palito">|</p>
+              <li><a href="#contactolink" class="nav">Contacto</a></li>
             </ul>
         </nav>
+        
     </header>
     <main class="fondomain">
         <div class="info">
@@ -35,9 +38,17 @@
             </div>
             <div class="justifi">
               <div class="tresimagenes">
-                  <img src="./img/atami.jpg" alt="">
-                  <img src="./img/El Hilo ROJO del Destino foto final.jpg" alt="">
-                  <img src="./img/tunayaki.jpg" alt="">
+                  <img src="./img/atami.jpg" alt="" class="galeria">
+                  <img src="./img/El Hilo ROJO del Destino foto final.jpg" alt="" class="galeria">
+                  <img src="./img/tunayaki.jpg" alt="" class="galeria">
+                  <img src="./img/Aa.jpg" alt=""  class="galeria">
+                  <img src="./img/Gunkan 1.jpg" alt=""  class="galeria">
+                  <img src="./img/Yakisate 2.jpg" alt=""  class="galeria">
+                  <img src="./img/OSAKA.jpg" alt=""  class="galeria">
+                  <img src="./img/Ae.jpg" alt=""  class="galeria">
+                  <img src="./img/Ad.jpg" alt=""  class="galeria">
+                  <button class="izquierda_galeria" onclick="pulsa(-1)">&#10094;</button>
+                  <button class="derecha_galeria" onclick="pulsa(1)">&#10095;</button>
               </div>
             </div>
             <div class="abrimos">
@@ -100,7 +111,7 @@
             <div class="formulario" >
                 <div class="mitad">
                     <h1 class="contacto">Contacto</h1>
-                    <form action="">
+                    <form action="" class="form">
                         Nombre (requerido) <br>
                         <input name="nombre" type="text" class="inputnormal"> <br>
                         Tu correo electrónico (requerido) <br>
@@ -112,9 +123,10 @@
                         <button class="boton">Enviar</button>
                     </form>
                 </div>
-                <div class="mitad"><img src="./img/Sello.jpg" alt=""></div>
+                <div class="mitad"><img src="./img/Sello.jpg" alt="" class="imgsello"></div>
             </div> 
         </div>
     </main>
+    <script src="./javaScript.js"></script>
 </body>
 </html>
