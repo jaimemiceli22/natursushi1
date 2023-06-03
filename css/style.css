@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     border: 0px solid red;
-    font-size: 1.5vw;
+    font-size: 20px;
     
 }
 /*Encabezado*/
@@ -11,27 +11,74 @@ header {
     color: #000000;
     align-items: center;
     display: flex;
-    justify-content: center;
-    height: 10vh;
+    
+    
     position: fixed;
     width: 100%;
     z-index: 9999
     
     
 }
-.logo{
+.esconder_menu{
     display: none;
-    width: 10%;
+}
+.logo_menu{
+    padding: 5px;
+    display: flex;
+}
+.nav{
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+.partemenu {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+}
+
+.menu_png {
+    margin-left: auto;
+    width: 50px;
     height: auto;
 }
-
-nav {
+.logo{
     
+    width: 140px;
+    display: none;
+}
+.menu_responsive{
+    display: none;
+    width: 100%;
+    text-align: center;
     
-    width: 50%;
     
 }
-
+.menu_responsive ul{
+    list-style: none;
+    width: 100%;
+    
+    
+}
+.nav2{
+    text-decoration: none;
+    font-size: 40px;
+    
+    
+}
+.menu_responsive li{
+    padding: 3% 0;
+}
+nav {
+    
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 100%;
+    
+}
+.menu_movil{
+    appearance: none;
+}
 nav ul {
     list-style: none;
     display: flex;
@@ -45,7 +92,7 @@ nav ul li {
 }
 nav ul li:hover{
     
-    font-size: 2vw;
+    font-size: 10px;
 }
 
 nav ul li a {
@@ -87,7 +134,7 @@ body{
 .menj{
     text-align: center;
     padding: 2% 20%;
-    font-size: 1.5vw;
+    
 }
 .tresimagenes{
     display: flex;
@@ -160,7 +207,7 @@ iframe{
     padding: 1%;
 }
 .nosotros h1{
-    font-size: 2vw;
+    font-size: 20px;
 }
 .conocenos{
     margin-top: 3vh;
@@ -186,7 +233,7 @@ iframe{
     max-width: 60%;
     min-width: 60%;
     min-height: 20vh;
-    font-size: 1vw;
+    font-size: 15px;
     vertical-align: top;
     width: 60%;
     height: 20vh;
@@ -198,7 +245,7 @@ iframe{
     width: 60%;
     margin: 1% 0%;
     color: black;
-    font-size: 1vw;
+    font-size: 15px;
     padding: 0.5%;
     border: solid 2px rgb(111, 111, 111);
     border-radius: 5px;
@@ -227,7 +274,7 @@ iframe{
     background-color: rgb(167, 131, 87);
 }
 .contacto{
-    font-size: 2vw;
+    font-size: 20px;
     margin-top: 8vh;
     margin-bottom: 3vh;
 }
@@ -236,7 +283,7 @@ iframe{
     width: 100%;
     height: auto;
 }
-/*clases generales*/
+
 
 .negrita{
     font-weight: bold;
@@ -281,7 +328,7 @@ iframe{
 .izquierda_galeria{
     background-color: rgba(255, 255, 255, 0);
     padding: 2%;
-    font-size: 3vw;
+    font-size: 30px;
     margin-left: 10%;
     color: #3333337f;
     border-radius: 5px;
@@ -289,7 +336,7 @@ iframe{
 .derecha_galeria{
     background-color: rgba(255, 255, 255, 0);
     padding: 2%;
-    font-size: 3vw;
+    font-size: 30px;
     margin-right: 10%;
     color: #3333337f;
     border-radius: 5px;

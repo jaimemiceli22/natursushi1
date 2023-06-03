@@ -44,3 +44,18 @@ function mostrarmenu() {
         header.style.height = "auto";
     }
 }
+
+var clic = document.getElementById("menu_checkbox");
+var menu = document.querySelector(".esconder_menu");
+
+clic.addEventListener("click", function() {
+  if (clic.checked) {
+    menu.style.display = "block";
+  } else {
+    menu.style.display = "none";
+  }
+});
+
+function ocultarMenu() {
+    menu.style.display = "none";
+}

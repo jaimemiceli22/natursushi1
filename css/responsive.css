@@ -5,6 +5,9 @@
     }
     .header{
         height: 8vh;
+        align-items: left;
+        
+        
         
     }
     .palito{
@@ -30,7 +33,7 @@
     }
     .menj{
         padding: 2% 10%;
-        font-size: 3vw;
+        
     }
     .tresimagenes img{
         width: 30%;
@@ -63,17 +66,17 @@
         
         width: 100%;
         padding: 2% 2%;
-        font-size: 3vw;
+        
     }
     .nosotros p{
-        font-size: 3vw;
+        
         
     }
     .nosotros{
         padding: 2% 8%;
     }
     .form{
-        font-size: 3vw;
+        
     }
     .contacto{
         font-size: 4vw;
@@ -83,14 +86,14 @@
     .inputnormal{
         width: 80%;
         border-radius: 4px;
-        font-size: 3vw;
+        
     }
     .inputgrande{
         width: 80%;
         max-width: 80%;
         min-width: 80%;
         border-radius: 4px;
-        font-size: 3vw;
+        
     }
     .negrita{
         font-size: 4vw;
@@ -106,7 +109,7 @@
         margin: 10% 0%;
     }
     .boton{
-        font-size: 3vw;
+        
     }
     .carta{
         display: block;
@@ -124,7 +127,7 @@
     .izquierda_galeria{
         background-color: rgba(255, 255, 255, 0);
         padding: 2%;
-        font-size: 3vw;
+        
         margin-left: 3%;
         color: #3333337f;
         border-radius: 5px;
@@ -132,7 +135,7 @@
     .derecha_galeria{
         background-color: rgba(255, 255, 255, 0);
         padding: 2%;
-        font-size: 3vw;
+        
         margin-right: 3%;
         color: #3333337f;
         border-radius: 5px;
@@ -145,6 +148,16 @@
       }
     nav {
         display: none;
+    }
+    .logo{
+        display: block;
+        
+        
+    }
+    .menu_responsive{
+        display: block;
+        
+        
     }
     
 }
