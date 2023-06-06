@@ -137,10 +137,10 @@
         border-radius: 5px;
     }
     .menu {
-        display: none; /* Oculta el menú principal en pantallas pequeñas */
+        display: none; 
       }
     .menu-hamburguesa {
-        display: block; /* Muestra el menú hamburguesa en pantallas pequeñas */
+        display: block; 
       }
     nav {
         display: none;
@@ -181,7 +181,7 @@
     .conocenos{
         font-size: 50px;
     }
-    .aviso_legal{
+    .aviso_legal{ 
         font-size: 30px;
     }
     

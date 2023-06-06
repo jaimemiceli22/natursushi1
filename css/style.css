@@ -13,6 +13,7 @@ html {
     font-family: 'fuente';
     src: url('../fuente/Montserrat-VariableFont_wght.ttf') format('truetype');
   }
+
 /*Encabezado*/
 header {
     background-color: #ffffff;
@@ -44,6 +45,8 @@ header {
     align-items: center;
     justify-content: center;
     width: 100%;
+    
+    
     
     
 }
@@ -102,9 +105,10 @@ header {
 }
 nav {
     
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 30px;
+    padding-bottom: 30px;
     width: 100%;
+    
     
 }
 .menu_movil{

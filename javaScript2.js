@@ -16,7 +16,7 @@ function pulsador() {
 }
 
 function ocultarMenu() {
-    clic.checked = false; // Desmarca el checkbox del menú
+    clic.checked = false; 
     menu.style.display = "none";
     hamburguesa.style.display = "block";
     x.style.display = "none";
