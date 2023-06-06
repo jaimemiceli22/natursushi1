@@ -4,10 +4,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>natursushi</title>
+    <link rel="icon" href="./img/japon.png">
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/responsive.css">
     <link rel="stylesheet" href="javaScript.js">
+
     
 </head>
 <body>
@@ -32,9 +34,11 @@
                     <img src="./img/logos unidos PNG" alt="Logo" class="logo">
                     <div class="partemenu">
                         
-                        <input type="checkbox" id="menu_checkbox" class="menu_movil">
-                        <label for="menu_checkbox">
-                            <img src="./img/menu.png" alt="" class="menu_png" >
+                        <input type="checkbox" id="menu_checkbox" class="menu_movil" onchange="pulsador()">
+
+                        <label for="menu_checkbox" class="menu_menu">
+                            <img src="./img/menu3.png" alt="" class="menu_png" onclick="pulsador()" >
+                            <img src="./img/x3.png" alt="" class="menu_png2" onclick="pulsador()" >
                         </label>
                         
                     </div>
@@ -43,11 +47,11 @@
                 
                 <ul class="esconder_menu">
                     <li><a href="#" class="nav2" onclick="ocultarMenu()">Inicio</a></li>
-                    <p class="palito">|</p>
+                    
                     <li><a href="./carta.html" class="nav2" onclick="ocultarMenu()">Carta</a></li>
-                    <p class="palito">|</p>
+                    
                     <li><a href="#nosotroslink" class="nav2" onclick="ocultarMenu()">Nosotros</a></li>
-                    <p class="palito">|</p>
+                    
                     <li><a href="#contactolink" class="nav2" onclick="ocultarMenu()">Contacto</a></li>
                 </ul>
             </div>  
@@ -78,24 +82,21 @@
               </div>
             </div>
             <div class="abrimos">
-              <div class="apertura">
-                Abrimos:
-                Lunes, Miércoles y Jueves: cenas.
-                Viernes, Sábado y Domingo: comidas y cenas.
-                Martes: cerramos.
-                Disponemos de servicio a domicilio
-                Telefono 91 815 77 23 / 686 380 020
-                <hr>
-                
-                Natur&Sushi Gastro Gourmet, S.L.
-                B-883.66.99.2
-                Calle Lope de Vega número 2
-                Villanueva de la Cañada
-                28691 Madrid
-                Telefono 91 815 77 23 / 686 380 020
-                Servicio SALA – Domicilio (Villanueva) – TakeAway
-              
-              </div>
+                <div class="apertura">
+                    <p class="negrita_titulo">Abrimos:</p>
+                    <p>Lunes, Miércoles y Jueves: cenas.</p>
+                    <p>Viernes, Sábado y Domingo: comidas y cenas.</p>
+                    <p>Martes: cerramos.</p>
+                    <p><span class="negrita_titulo">Disponemos de servicio a domicilio</span> </p>
+                    <p>Teléfono: <a href="tel:+3491 815 77 23">91 815 77 23</a>  / <a href="tel:+34686 380 020">686 380 020</a> </p>
+                    <hr>
+                    <p>Natur&Sushi Gastro Gourmet, S.L.</p>
+                    <p>B-883.66.99.2</p>
+                    <p>Calle Lope de Vega número 2</p>
+                    <p>Villanueva de la Cañada</p>
+                    <p>28691 Madrid</p>
+                    <p>Servicio SALA – Domicilio (Villanueva) – TakeAway</p>
+                </div>
                 
               <div class="elmapa">
                   <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3036.1212089978317!2d-4.008474923155769!3d40.45045417143426!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd419977277e8eab%3A0x17a3cdbd5b4beff0!2sNatur%26Sushi%20Gastro%20Gourmet!5e0!3m2!1ses!2ses!4v1683880587403!5m2!1ses!2ses"  style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
@@ -105,7 +106,7 @@
             <span id="nosotroslink"></span> 
             <hr >
             <div class="nosotros" >
-                <h1 class="conocenos" >Conocenos</h1>
+                <p class="conocenos" >Conocenos</p>
                 <p>
                     Natur&Sushi proporciona un servicio de sushi único, además dispone de una carta de cocina japonesa y creaciones personales fusión y exclusivas en este local.
                     #AntonioXu, sushi chef, tiene como objetivo acercar ‘comida del mundo’ a este pueblo de la periferia de Madrid, Villanueva de la Cañada, además de la creación de nuevas recetas aptas para todos los públicos.
@@ -130,8 +131,9 @@
                    <span class="negrita"> #natursushi #gastrogourmet #comebien #comesan #amaloquehaces #plandevida #AntonioXu </span>
                 </p>
                 <img src="./img/aj.jpg" alt="" class="aj">
+                <span id="contactolink"></span>
             </div> 
-            <span id="contactolink"></span>   
+               
             <hr>
             
             <div class="formulario" >
@@ -151,6 +153,9 @@
                 </div>
                 <div class="mitad"><img src="./img/Sello.jpg" alt="" class="imgsello"></div>
             </div> 
+            <div class="centrar_aviso">
+                <a href="https://www.aepd.es/es" class="aviso_legal">avisos legales</a>
+            </div>
         </div>
     </main>
     <script src="./javaScript.js"></script>

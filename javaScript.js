@@ -1,4 +1,4 @@
-var galeria_a = 0;  // Iniciar en 0 en lugar de 1
+var galeria_a = 0;  
 
 mostrar(galeria_a);
 
@@ -9,14 +9,14 @@ function pulsa(x) {
 function mostrar(x) {
     var i;
     var z = document.getElementsByClassName("galeria");
-    var numVisible = (window.innerWidth <= 768) ? 1 : 3;  // Cambiar el número de imágenes visibles según el ancho de la ventana
+    var numVisible = (window.innerWidth <= 768) ? 1 : 3;  
     var imagenes = document.querySelectorAll(".galeria")
 
 
     if (x >= z.length) {
-        galeria_a = 0;  // Volver a la primera imagen si se supera el límite
+        galeria_a = 0;  
     } else if (x < 0) {
-        galeria_a = z.length - numVisible;  // Ir a la última imagen si se pasa de la primera
+        galeria_a = z.length - numVisible;  
     }
 
     for (i = 0; i < z.length; i++) {
@@ -32,30 +32,29 @@ function mostrar(x) {
         
     }
 }
-function mostrarmenu() {
-    var pulsado = document.querySelector("#toggle-menu");
-    var header = document.querySelector(".header");
-    var menu = document.querySelector(".menu");
 
-    if (pulsado.checked) {
-        header.style.height = "30vh";
-        
-    } else {
-        header.style.height = "auto";
-    }
-}
 
 var clic = document.getElementById("menu_checkbox");
 var menu = document.querySelector(".esconder_menu");
-
-clic.addEventListener("click", function() {
-  if (clic.checked) {
-    menu.style.display = "block";
-  } else {
-    menu.style.display = "none";
-  }
-});
+var hamburguesa = document.querySelector(".menu_png")
+var x = document.querySelector(".menu_png2")
+function pulsador() {
+    if (clic.checked) {
+        menu.style.display = "block";
+        hamburguesa.style.display = "none";
+        x.style.display = "block";
+    } else {
+        menu.style.display = "none";
+        hamburguesa.style.display = "block";
+        x.style.display = "none";
+    }
+}
 
 function ocultarMenu() {
+    clic.checked = false; 
     menu.style.display = "none";
+    hamburguesa.style.display = "block";
+    x.style.display = "none";
 }
+
+

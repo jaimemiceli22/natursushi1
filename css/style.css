@@ -2,9 +2,17 @@
     margin: 0;
     padding: 0;
     border: 0px solid red;
-    font-size: 20px;
+    font-size: 18px;
+    font-family: 'fuente';
     
 }
+html {
+    scroll-behavior: smooth;
+}
+@font-face {
+    font-family: 'fuente';
+    src: url('../fuente/Montserrat-VariableFont_wght.ttf') format('truetype');
+  }
 /*Encabezado*/
 header {
     background-color: #ffffff;
@@ -19,28 +27,44 @@ header {
     
     
 }
+
+.menu_menu{
+    justify-content: center;
+    align-items: center;
+}
 .esconder_menu{
     display: none;
+    
 }
 .logo_menu{
-    padding: 5px;
+    padding: 8px 25px;
     display: flex;
 }
 .nav{
     align-items: center;
     justify-content: center;
     width: 100%;
+    
+    
 }
 .partemenu {
     display: flex;
     justify-content: flex-end;
+    align-items: center;
     width: 100%;
 }
 
 .menu_png {
     margin-left: auto;
-    width: 50px;
+    width: 40px;
     height: auto;
+    
+}
+.menu_png2 {
+    margin-left: auto;
+    width: 40px;
+    height: auto;
+    display: none;
 }
 .logo{
     
@@ -51,6 +75,7 @@ header {
     display: none;
     width: 100%;
     text-align: center;
+    border-bottom: 2px solid rgba(204, 45, 69, 0.484);
     
     
 }
@@ -62,9 +87,15 @@ header {
 }
 .nav2{
     text-decoration: none;
-    font-size: 40px;
+    font-size: 30px;
+   
     
     
+}
+.esconder_menu li{
+    
+    border-top: 1px solid rgba(0, 0, 0, 0.5);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.502);
 }
 .menu_responsive li{
     padding: 3% 0;
@@ -156,9 +187,14 @@ body{
     
     
 }
+.negrita_titulo{
+    font-weight: bold;
+}
 .apertura{
     width: 50%;
     padding: 2% 2%;
+    
+    
 }
 hr{
     background-color: #000000;
@@ -212,6 +248,8 @@ iframe{
 .conocenos{
     margin-top: 3vh;
     margin-bottom: 3vh;
+    font-size: 30px;
+    font-weight: bold;
 }
 /*foto joana y antonio*/
 
@@ -265,10 +303,11 @@ iframe{
 .boton{
     margin-top: 2vh;
     padding: 0.5%;
-    width: 15%;
+    
     border-radius: 2%;
     border: solid 1px rgb(111, 111, 111);
     background-color: #ffffff;
+    cursor: pointer;
 }
 .boton:hover{
     background-color: rgb(167, 131, 87);
@@ -280,7 +319,7 @@ iframe{
 }
 
 .imgsello{
-    width: 100%;
+    width: 60%;
     height: auto;
 }
 
@@ -332,6 +371,7 @@ iframe{
     margin-left: 10%;
     color: #3333337f;
     border-radius: 5px;
+    cursor: pointer;
 }
 .derecha_galeria{
     background-color: rgba(255, 255, 255, 0);
@@ -340,6 +380,7 @@ iframe{
     margin-right: 10%;
     color: #3333337f;
     border-radius: 5px;
+    cursor: pointer;
 }
 .izquierda_galeria:hover{
     font-size: 3.3vw;
@@ -357,43 +398,16 @@ iframe{
     font-size: 3.5vw;
     color:rgb(167, 131, 87);
 }
-.menu-hamburguesa {
-    display: none; /* Oculta el menú hamburguesa por defecto */
-  }
-  .menu-hamburguesa label {
-    display: inline-block;
-    cursor: pointer;
-    
-    
-  }
+
   
-  .menu-hamburguesa span {
-    display: block;
-    width: 30px;
-    height: 3px;
-    margin-bottom: 5px;
-    background-color: #020000;
-    transition: transform 0.2s, opacity 0.3s;
-    border-radius: 5px;
-    
+  .contacto{
+    font-size: 30px;
   }
-  
-  .menu-hamburguesa input[type="checkbox"] {
-    display: none;
-  }
-  
-  .menu-hamburguesa input[type="checkbox"]:checked ~ ul {
-    display: block; /* Muestra el menú al hacer clic en el botón hamburguesa */
-  }
-  
-  .menu-hamburguesa input[type="checkbox"]:checked ~ label span:nth-child(1) {
-    transform: translateY(7px) rotate(45deg);
-  }
-  
-  .menu-hamburguesa input[type="checkbox"]:checked ~ label span:nth-child(2) {
-    opacity: 0;
-  }
-  
-  .menu-hamburguesa input[type="checkbox"]:checked ~ label span:nth-child(3) {
-    transform: translateY(-8px) rotate(-45deg);
-  }
+.aviso_legal{
+    font-size: 15px;
+    color: #000000;
+    text-decoration: none;
+}
+.centrar_aviso{
+    text-align: center;
+}

@@ -78,11 +78,7 @@
     .form{
         
     }
-    .contacto{
-        font-size: 4vw;
-        margin-top: 2vh;
-        margin-bottom: 3vh;
-    }
+    
     .inputnormal{
         width: 80%;
         border-radius: 4px;
@@ -159,10 +155,34 @@
         
         
     }
+    .claselogo{
+        margin-top: 5vh;
+    }
     
 }
-@media screen and (max-width:768px) {
+@media screen and (max-width:425px ) {
+    .menj{
+        padding: 2% 10%;
+    }
+    .apertura{
+        width: 100%;
+    }
     .info{
         width: 90%;
     }
+}
+@media screen and (min-width:2560px) {
+    *{
+        font-size: 40px;
+    }
+    .contacto{
+        font-size: 50px;
+    }
+    .conocenos{
+        font-size: 50px;
+    }
+    .aviso_legal{
+        font-size: 30px;
+    }
+    
 }

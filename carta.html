@@ -4,22 +4,50 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>natursushi</title>
+    <link rel="icon" href="./img/japon.png">
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/responsive.css">
+    
 </head>
 <body class="fondocarta">
     <header>
         
         
         
-        <nav>
-            <ul>
-              <li><a href="./inicio.html">Inicio</a></li>
-              
-              
+        <div class="nav">
+            <nav>
+                <ul>
+                    <li><a href="./inicio.html" class="nav">Inicio</a></li>
+                    
+                </ul>
+            </nav>
+        </div>
+        <div class="menu_responsive">
+            <div class="logo_menu">
+                
+                <img src="./img/logos unidos PNG" alt="Logo" class="logo">
+                <div class="partemenu">
+                    
+                    <input type="checkbox" id="menu_checkbox" class="menu_movil" onchange="pulsador()">
+
+                    <label for="menu_checkbox" class="menu_menu">
+                        <img src="./img/menu3.png" alt="" class="menu_png" onclick="pulsador()" >
+                        <img src="./img/x3.png" alt="" class="menu_png2" onclick="pulsador()" >
+                    </label>
+                    
+                </div>
+                
+            </div>
+            
+            <ul class="esconder_menu">
+                <li><a href="inicio.html" class="nav2" onclick="ocultarMenu()">Inicio</a></li>
+                
+                <li><a href="inicio.html#nosotroslink" class="nav2" onclick="ocultarMenu()">Nosotros</a></li>
+                
+                <li><a href="inicio.html#contactolink" class="nav2" onclick="ocultarMenu()">Contacto</a></li>
             </ul>
-        </nav>
+        </div> 
     </header>
     <main class="fondomain">
         <div class="info_carta">
@@ -68,5 +96,6 @@
             
         </div>
     </main>
+    <script src="./javaScript2.js"></script>
 </body>
 </html>
